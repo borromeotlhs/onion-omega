@@ -1,0 +1,15 @@
+CONFIG_TARGET_ar71xx=y
+CONFIG_TARGET_ar71xx_generic=y
+CONFIG_TARGET_ar71xx_generic_OMEGA=y
+# CONFIG_PACKAGE_kmod-i2c-core is not set
+# CONFIG_PACKAGE_kmod-i2c-gpio-custom is not set
+CONFIG_PACKAGE_kmod-ledtrig-usbdev=y
+# CONFIG_PACKAGE_kmod-scsi-core is not set
+# CONFIG_PACKAGE_kmod-spi-bitbang is not set
+# CONFIG_PACKAGE_kmod-spi-dev is not set
+# CONFIG_PACKAGE_kmod-spi-gpio is not set
+# CONFIG_PACKAGE_kmod-spi-gpio-custom is not set
+CONFIG_PACKAGE_kmod-usb-ohci=y
+# CONFIG_PACKAGE_kmod-usb-serial is not set
+# CONFIG_PACKAGE_kmod-usb-storage is not set
+CONFIG_PACKAGE_uboot-ar71xx-nbg460n_550n_550nh=y
