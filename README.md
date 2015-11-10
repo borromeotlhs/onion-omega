@@ -10,11 +10,11 @@ make prereq
 make menuconfig
 make
 ```
-but I have included the
-```docker
-RUN make
+but I have included all commands up until the
+```shell
+make
 ```
-command to just have this all build on container bringup.
+command to just have this awaiting a 'make -j8' on container bringup.
 
 Then, you'll need to follow the instructions at: https://github.com/netbeast/docs/wiki/Cross-Compile-Nodejs-for-OpenWrt
 to compile node.js.  One step the instructions forgot was to set up RANLIB variable.
