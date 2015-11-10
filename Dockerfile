@@ -44,4 +44,4 @@ ADD appendtoconfig /openwrt/appendtoconfig
 RUN cat appendtoconfig/appendtoconfig >> .config
 # I expect some warnings from this, but it's a straightforward op
 RUN make defconfig
-#RUN make
+RUN make
